@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,14 @@ a {
     color: white;
 }
 
+.btn {
+    border: none;
+    background-color: #E5989B;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
 .content1,
 .content2,
 .content3,
@@ -32,7 +44,78 @@ a {
 
 .content1 {
     background-color: #2A9D8F;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
+
+.content {
+    max-width: 400px;
+    flex: 1;
+}
+
+img {
+    flex: 1;
+    max-width: 200px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    flex: 1;
+    width: 100%;
+}
+
+.content2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.content2.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-box-1,
+.content-box-2,
+.content-box-3,
+.content-box-4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content2 {
     background-color: #E9C46A;
@@ -45,6 +128,24 @@ a {
 .content4 {
     background-color: #E76F51;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: flex;
