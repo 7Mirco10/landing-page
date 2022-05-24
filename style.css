@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background-color: #1f2937;
+    background-color: #264653;
 }
 
 ul {
@@ -18,5 +18,42 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+    display: flex;
+    height: 300px;
+    flex: 1;
+}
+
+.content1 {
+    background-color: #2A9D8F;
+}
+
+.content2 {
+    background-color: #E9C46A;
+}
+
+.content3 {
+    background-color: #F4A261;
+}
+
+.content4 {
+    background-color: #E76F51;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #264653;
+}
+
+.footer p {
     color: white;
 }
