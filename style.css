@@ -137,12 +137,14 @@ img {
     flex-direction: column;
     padding: 40px;
     background-color: white;
+    text-align: center;
 }
 
-.content4-button {
+.content4-content button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 
