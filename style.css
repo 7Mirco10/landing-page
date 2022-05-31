@@ -35,7 +35,6 @@ a {
 /* ---------------- */
 
 img {
-    flex: 1;
     max-width: 200px;
 }
 
@@ -89,18 +88,6 @@ img {
     width: 100%;
 }
 
-.main__container2 img {
-    width: 100px;
-    height: 100px;
-}
-
-.main__container2.text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .main__content-container2--content-box-1,
 .main__content-container2--content-box-2,
 .main__content-container2--content-box-3,
@@ -111,6 +98,7 @@ img {
     flex-direction: column;
     border-radius: 5px;
     max-width: 200px;
+    text-align: center;
 }
 
 .main__content-container2--content-box-1 img,
@@ -119,8 +107,9 @@ img {
 .main__content-container2--content-box-4 img {
     width: 100px;
     height: 100px;
-    object-fit: contain;
-    float: left;
+    object-fit: cover;
+    border: 2px solid #E5989B;
+    border-radius: 10px;
 }
 
 /* ---------------- */
